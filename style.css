@@ -20,3 +20,30 @@ body {
     float: right;
     color: white;
 }
+body{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url("kepek/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    margin: 0;
+    background-attachment: fixed;
+
+}
+header h1,h2{
+    position: fixed;
+    left: 5vw;
+    top: 20vh;
+    font-size: 50pt;
+    color: aliceblue;
+    text-shadow: 5px 5px black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+header h2{
+    top: 28vh;
+    font-size: 40pt;
+}
