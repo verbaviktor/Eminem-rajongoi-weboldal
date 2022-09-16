@@ -1,4 +1,4 @@
-/* #nav_pic {
+#nav_pic {
     height: 60%;
 } */
 
@@ -39,26 +39,31 @@ body{
     scroll-behavior: smooth;
 }
 
-header{
-    background-image: url("kepek/wallpaperflare.com_wallpaper.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-    margin: 0;
-    background-attachment: fixed;
+#footer_holder {
+    background-color: black;
+    text-align: center;
+}
 
+.footer_element {
+    width: 5vw;
 }
-header h1,h2{
-    position: relative;
-    left: 5vw;
-    top: 18vh;
-    font-size: 50pt;
-    color: aliceblue;
-    text-shadow: 5px 5px black;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+
+#social_instagram {
+    height: 5vh;
+    width: 3vw;
 }
-header h2{
-    top: 19vh;
-    font-size: 40pt;
+
+#social_twitter {
+    height: 5vh;
+    width: 3vw;
+}
+
+#social_facebook {
+    height: 5vh;
+    width: 3vw;
+}
+
+#social_youtube {
+    height: 5vh;
+    width: 3vw;
 }
