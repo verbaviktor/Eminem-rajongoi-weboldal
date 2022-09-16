@@ -5,21 +5,36 @@
 body {
     background-color: rgb(101, 100, 100);
 }
-.events {
+.events_section {
     background-image: url("kepek/hatter_2.jpg");
     background-position: left;
     width: 100%;
     height: 100vh;
 }
-#eventstitle {
+
+.events h1 {
     color: white;
+    letter-spacing: 8px;
+    font-size: 40pt;
 }
-.events2 {
+
+.events {
     width: 40vw;
     height: 100%;
     float: right;
     color: white;
+    position: relative;
+    top: 15vh;
 }
+
+.events li {
+    list-style-image:url("kepek/mic_icon.png");
+    filter: invert();
+    color: black;
+    font-size: 40px;
+    line-height: 11vh;
+}
+
 body{
     scroll-behavior: smooth;
 }
