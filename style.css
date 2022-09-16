@@ -1,3 +1,32 @@
-/* #nav_pic {
+#nav_pic {
     height: 60%;
-} */
+}
+
+#footer_holder {
+    background-color: black;
+    text-align: center;
+}
+
+.footer_element {
+    width: 5vw;
+}
+
+#social_instagram {
+    height: 5vh;
+    width: 3vw;
+}
+
+#social_twitter {
+    height: 5vh;
+    width: 3vw;
+}
+
+#social_facebook {
+    height: 5vh;
+    width: 3vw;
+}
+
+#social_youtube {
+    height: 5vh;
+    width: 3vw;
+}
