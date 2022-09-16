@@ -12,9 +12,9 @@ header{
 
 }
 header h1,h2{
-    position: fixed;
+    position: relative;
     left: 5vw;
-    top: 20vh;
+    top: 18vh;
     font-size: 50pt;
     color: aliceblue;
     text-shadow: 5px 5px black;
@@ -22,6 +22,6 @@ header h1,h2{
     text-transform: uppercase;
 }
 header h2{
-    top: 28vh;
+    top: 19vh;
     font-size: 40pt;
 }
