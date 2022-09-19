@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(101, 100, 100);
+    scroll-behavior: smooth;
+}
+#nav_pic {
+    height: 60%;
+}
+.first_paragraph p {
+    margin: 50px;
+}
+.first_pic {
+    width: 500px;
+    height: 600px;
+}
