@@ -15,6 +15,7 @@ body {
     color: white;
     letter-spacing: 8px;
     font-size: 40pt;
+    text-shadow: 0px 2px whitesmoke;
 }
 .events {
     width: 40vw;
@@ -23,6 +24,10 @@ body {
     color: white;
     position: relative;
     top: 15vh;
+}
+.events ul {
+    position: relative;
+    top: 10vh;
 }
 .events li {
     list-style-image:url("kepek/mic_icon.png");
