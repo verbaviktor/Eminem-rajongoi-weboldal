@@ -67,7 +67,7 @@ header{
     background-image: url("kepek/wallpaperflare.com_wallpaper.jpg");
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
     margin: 0;
     background-attachment: fixed;
 
@@ -78,11 +78,19 @@ header h1,h2{
     top: 18vh;
     font-size: 50pt;
     color: aliceblue;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 0.3vw black;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 header h2{
     top: 19vh;
     font-size: 40pt;
+}
+.navbar{
+    opacity: 0.75;
+    background-color: whitesmoke;
+}
+:hover.card{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
