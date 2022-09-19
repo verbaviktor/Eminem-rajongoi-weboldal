@@ -35,13 +35,18 @@ body{
     scroll-behavior: smooth;
 }
 
-#footer_holder {
+.footer {
     background-color: black;
-    text-align: center;
+    height: fit-content;
 }
 
-.footer_element {
-    width: 5vw;
+#social_holder {
+    /* position: relative;
+    left: 40vw; */
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
 #social_instagram {
@@ -63,6 +68,24 @@ body{
     height: 5vh;
     width: 3vw;
 }
+
+#footer_lorem p {
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+#footer_lorem_1st {
+    margin-top: 15px;
+}
+
+#footer_hr {
+    color: white;
+    width: 49.5vw;   
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header{
     background-image: url("kepek/wallpaperflare.com_wallpaper.jpg");
     background-size: cover;
