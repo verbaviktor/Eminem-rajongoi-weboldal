@@ -1,7 +1,7 @@
 #nav_pic {
     height: 60%;
-} */
-
+}
+  
 body {
     background-color: rgb(101, 100, 100);
 }
@@ -11,13 +11,11 @@ body {
     width: 100%;
     height: 100vh;
 }
-
 .events h1 {
     color: white;
     letter-spacing: 8px;
     font-size: 40pt;
 }
-
 .events {
     width: 40vw;
     height: 100%;
@@ -26,7 +24,6 @@ body {
     position: relative;
     top: 15vh;
 }
-
 .events li {
     list-style-image:url("kepek/mic_icon.png");
     filter: invert();
@@ -34,7 +31,6 @@ body {
     font-size: 40px;
     line-height: 11vh;
 }
-
 body{
     scroll-behavior: smooth;
 }
@@ -66,4 +62,27 @@ body{
 #social_youtube {
     height: 5vh;
     width: 3vw;
+}
+header{
+    background-image: url("kepek/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    margin: 0;
+    background-attachment: fixed;
+
+}
+header h1,h2{
+    position: relative;
+    left: 5vw;
+    top: 18vh;
+    font-size: 50pt;
+    color: aliceblue;
+    text-shadow: 5px 5px black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+header h2{
+    top: 19vh;
+    font-size: 40pt;
 }
