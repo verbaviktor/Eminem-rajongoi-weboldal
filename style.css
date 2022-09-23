@@ -11,23 +11,14 @@ body {
 hr {
     color: #fff;
 }
-.first_paragraph, .first_pic {
+.first_paragraph, .first_pic, .second_paragraph, .second_pic,
+.third_paragraph, .third_pic, .fourth_paragraph, .fourth_pic {
     margin: 30px;
     padding: 15px;
     background-color: #fff;
     border-radius: 20px;
 }
-.first_pic {
-    display: flex;
-    justify-content: center;
-}
-.second_paragraph, .second_pic {
-    margin: 30px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 20px;
-}
-.second_pic {
+.first_pic, .second_pic, .third_pic, .fourth_pic {
     display: flex;
     justify-content: center;
 }
