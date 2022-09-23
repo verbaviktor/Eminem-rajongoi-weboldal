@@ -1,4 +1,77 @@
 body {
-    background-image: url(kepek/logo_4.png);
+    background-color: 	rgb(52, 52, 52);
+    /* background-image: url(kepek/albums/background_logos/black_1_mod_new.png); */
+    background-size: 6vw;
     background-repeat: repeat;
+    width: 99vw;
+}
+
+main {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.album {
+    padding: 15px;
+}
+
+.album img {
+    width: 93%;
+}
+
+.album img:hover {
+    opacity: 35%;
+    height: 101%;
+    width: 101%;
+}
+
+.footer {
+    background-color: black;
+    height: fit-content;
+}
+
+#social_holder {
+    /* position: relative;
+    left: 40vw; */
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+#social_instagram {
+    height: 5vh;
+    width: 3vw;
+}
+
+#social_twitter {
+    height: 5vh;
+    width: 3vw;
+}
+
+#social_facebook {
+    height: 5vh;
+    width: 3vw;
+}
+
+#social_youtube {
+    height: 5vh;
+    width: 3vw;
+}
+
+#footer_lorem p {
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+#footer_lorem_1st {
+    margin-top: 15px;
+}
+
+#footer_hr {
+    color: white;
+    width: 49.5vw;   
+    margin-left: auto;
+    margin-right: auto;
 }
