@@ -13,13 +13,13 @@ hr {
 }
 .first_paragraph, .first_pic, .second_paragraph, .second_pic,
 .third_paragraph, .third_pic, .fourth_paragraph, .fourth_pic, 
-.fifth_paragraph, .fifth_pic, .sixth_paragraph, .sixth_pic{
+.fifth_paragraph, .fifth_pic, .sixth_paragraph, .sixth_pic, .seventh_paragraph, .seventh_pic{
     margin: 30px;
     padding: 15px;
     background-color: #fff;
     border-radius: 20px;
 }
-.first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic{
+.first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic{
     display: flex;
     justify-content: center;
 }
