@@ -1,9 +1,10 @@
 #nav_pic {
     height: 60%;
 }
-  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
     background-color: rgb(101, 100, 100);
+    
 }
 .events_section {
     background-image: url("kepek/hatter_2.jpg");
@@ -12,19 +13,19 @@ body {
     height: 100vh;
     background-size: cover;
 }
+.events {
+    width: 40vw;
+    height: 90vh;
+    float: right;
+    color: white;
+    position: relative;
+    top: 10vh;
+}
 .events h1 {
     color: white;
     letter-spacing: 8px;
     font-size: 5vw;
     text-shadow: 0px 2px black;
-}
-.events {
-    width: 40vw;
-    height: fit-content;
-    float: right;
-    color: white;
-    position: relative;
-    top: 15vh;
 }
 .events ul {
     position: relative;
@@ -141,16 +142,34 @@ header h2{
     transform: scale(1.15);
     transition: 0.3s;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-height: 700px) {
     .events li{
         font-size: 20pt;
-        line-height: 40pt;
+        line-height: normal;
+    }
+    .events ul{
+        top: 5vh;
     }
     .events h1{
         font-size: 30pt;
-
+        
     }
+}
+@media screen and (max-width: 700px) {
+
     .events{
         float: none;
+        width: auto;
+    }
+    .events li{
+        font-size: 20pt;
+        line-height: normal;
+    }
+    .events ul{
+        top: 5vh;
+    }
+    .events h1{
+        font-size: 30pt;
+        
     }
 }
