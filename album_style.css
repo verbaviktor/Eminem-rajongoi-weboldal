@@ -3,6 +3,8 @@ html {
     overflow-x: scroll;
 }
 
+/* general style */
+
 body {
     background-color: 	rgb(101, 100, 100);
     background-size: 6vw;
@@ -23,9 +25,7 @@ main {
     padding-bottom: 15px;
 }
 
-/* .album_row {
-    margin-left: 15px;
-} */
+/* album pic style */
 
 .album {
     padding-top: 10px;
@@ -36,6 +36,8 @@ main {
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.616) ;
 
 }
+
+/* footer style */
 
 .footer {
     background-color: black;
@@ -86,4 +88,10 @@ main {
     width: 49.5vw;   
     margin-left: auto;
     margin-right: auto;
+}
+/* album solo page style */
+
+.album_solopage_img {
+    height: fit-content;
+    width: fit-content;
 }
