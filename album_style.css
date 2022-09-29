@@ -7,8 +7,6 @@ html {
 
 body {
     background-color: 	rgb(101, 100, 100);
-    background-size: 6vw;
-    background-repeat: repeat;
     width: 100%;
     margin: none;
     padding: none;
@@ -16,10 +14,12 @@ body {
 
 nav {
     width: 100%;
+    opacity: 75%;
 }
 
 main {
     width: 100%;
+    margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -28,13 +28,30 @@ main {
 /* album pic style */
 
 .album {
-    padding-top: 10px;
+    padding-top: 15px;
+}
+
+@keyframes album_animation {
+    0% {
+        transform: scale(1 ,1);
+    }
+    100% {
+        transform: scale(1.0625 ,1.0625);
+        opacity: 60%;
+        box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.712) ;
+    }
+}
+
+.album img:hover {
+    animation-name: album_animation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
 }
 
 .album img {
     width: 100%;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.616) ;
-
 }
 
 /* footer style */
@@ -89,9 +106,38 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-/* album solo page style */
 
-.album_solopage_img {
+/* album solo page header style */
+
+.album_solopage_header {
     height: fit-content;
+    width: 100%;
+    padding: none;
+    margin: none;
+    background-color: red;
+    background-image: none;
+}
+
+.solopage_header_text_holder {
     width: fit-content;
+    height: fit-content;
+}
+
+.solopage_header_text_holder h1, h2, h4, h5 {
+    color: white;
+    width: fit-content;
+}
+
+.header_pic_holder {
+    background-image: url(kepek/albums/Courtain_Call_2.jpg);
+    background-color: blue;
+    background-size: cover;
+    width: 15%;
+    margin: 1%;
+    padding: none;
+}
+
+.album_solopage_main {
+    height: 800px;
+    background-color: yellow;
 }
