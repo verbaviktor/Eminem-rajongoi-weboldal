@@ -1,49 +1,8 @@
 
-.first_paragraph, .first_pic, .second_paragraph, .second_pic,
-.third_paragraph, .third_pic, .fourth_paragraph, .fourth_pic, 
-.fifth_paragraph, .fifth_pic, .sixth_paragraph, .sixth_pic, .seventh_paragraph, .seventh_pic{
-    margin: 30px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 20px;
-}
-.first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic{
-    display: flex;
-    justify-content: center;
-    background-size: cover;
-    background-attachment: local;
-    background-position: center;
-    
-}
-.first_pic{
-    background-image: url("kepek/young_eminem.jpg");
-    height: 500px;
-}
-.second_pic{
-    background-image: url("kepek/biography_second_pic.jpg");
-}
-.third_pic{
-    background-image: url("kepek/biography_third_pic.jpg");
-}
-.fourth_pic{
-    background-image: url("kepek/biography_fourth_pic.jpg");
-}
-.fifth_pic{
-    background-image: url("kepek/biography_fifth_pic.jpg");
-}
-.sixth_pic{
-    background-image: url("kepek/biography_sixth_pic.jpg");
-    background-position: top;
-}
-.seventh_pic{
-    background-image: url("kepek/biography_seventh_pic.jpg");
-}
-#nav_pic {
-    height: 60%;
-}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
     background-color: rgb(101, 100, 100);
+    scroll-behavior: smooth;
     
 }
 .events_section {
@@ -78,9 +37,6 @@ body {
     font-size: 3vh;
     line-height: 60px;
     text-shadow: 2px 2px white;
-}
-body{
-    scroll-behavior: smooth;
 }
 
 .footer {
@@ -149,7 +105,7 @@ header{
     height: 100vh;
     margin: 0;
     background-attachment: fixed;
-
+    
 }
 header h1,h2{
     width: fit-content;
@@ -164,7 +120,8 @@ header h1,h2{
 }
 header h2{
     top: 19vh;
-    font-size: 40pt;
+    font-size: 45pt;
+    text-shadow: 5px 0.2vw black;
 }
 .navbar{
     opacity: 0.75;
@@ -182,6 +139,73 @@ header h2{
     transform: scale(1.15);
     transition: 0.3s;
 }
+.biography{
+    background-color: rgb(61, 61, 61);
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+    background-attachment: fixed;
+    width: 100vw;
+}
+.biography-container{
+    min-height: 100%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.first_paragraph, .first_pic, .second_paragraph, .second_pic,
+.third_paragraph, .third_pic, .fourth_paragraph, .fourth_pic, 
+.fifth_paragraph, .fifth_pic, .sixth_paragraph, .sixth_pic, .seventh_paragraph, .seventh_pic{
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.658);
+    margin: 0 auto;
+    width: 45%;
+}
+.first_paragraph, .second_paragraph, .third_paragraph, .fourth_paragraph,.fifth_paragraph,.sixth_paragraph,.seventh_paragraph{
+    min-height: 100%;
+    padding: auto;
+}
+.first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: block;
+    background-position: center;
+}
+h3{
+    text-align: center;
+    font-size: 50pt;
+    line-height: 100px;
+    font-weight: bold;
+}
+hr{
+    width: 80%;
+    color: white;
+    margin: auto;
+}
+.first_pic{
+    background-image: url("kepek/biography-1.jpg");
+}
+.second_pic{
+    background-image: url("kepek/biography_second_pic.jpg");
+}
+.third_pic{
+    background-image: url("kepek/biography_third_pic.jpg");
+}
+.fourth_pic{
+    background-image: url("kepek/biography_fourth_pic.jpg");
+}
+.fifth_pic{
+    background-image: url("kepek/biography_fifth_pic.jpg");
+}
+.sixth_pic{
+    background-image: url("kepek/biography_sixth_pic.jpg");
+    background-position: top;
+}
+.seventh_pic{
+    background-image: url("kepek/biography_seventh_pic.jpg");
+}
 @media screen and (max-height: 700px) {
     .events li{
         font-size: 20pt;
@@ -196,7 +220,7 @@ header h2{
     }
 }
 @media screen and (max-width: 700px) {
-
+    
     .events{
         float: none;
         width: auto;
@@ -211,5 +235,11 @@ header h2{
     .events h1{
         font-size: 30pt;
         
+    }
+    .first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic {
+    width: 90vw;
+    }
+    .first_paragraph, .second_paragraph, .third_paragraph, .fourth_paragraph,.fifth_paragraph,.sixth_paragraph,.seventh_paragraph{
+        width: 90vw;
     }
 }
