@@ -157,7 +157,7 @@ header h2{
 }
 .paragraph, .first_pic,  .second_pic,
 .third_pic, .fourth_pic, 
- .fifth_pic, .sixth_pic, .seventh_pic{
+ .fifth_pic, .sixth_pic{
     margin: 10px;
     padding: 15px;
     background-color: #fff;
@@ -166,12 +166,12 @@ header h2{
     margin: 0 auto;
     width: 45vw;
  }
-.first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic{
+.first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic{
 
     justify-content: center;
     background-size: cover;
     background-attachment: block;
-    background-position: center;
+    background-position: top;
 }
 h3{
     text-align: center;
@@ -201,11 +201,8 @@ hr{
 }
 .sixth_pic{
     background-image: url("kepek/biography_sixth_pic.jpg");
-    background-position: top;
 }
-.seventh_pic{
-    background-image: url("kepek/biography_seventh_pic.jpg");
-}
+
 
 @media screen and (max-height: 700px) {
     .events li{
@@ -245,10 +242,10 @@ hr{
     .biography-container{
         flex-direction: column;
     }
-    .paragraph,.first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic {
+    .paragraph,.first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic{
         width: 90vw;
         }
-    .first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic {
+    .first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic {
             height: 800px;
             margin:  20px auto;
             
