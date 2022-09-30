@@ -201,6 +201,41 @@ hr{
     background-image: url("kepek/biography_sixth_pic.jpg");
 }
 
+main {
+    width: 100%;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+
+.album {
+    padding-top: 15px;
+}
+
+@keyframes album_animation {
+    0% {
+        transform: scale(1 ,1);
+    }
+    100% {
+        transform: scale(1.0625 ,1.0625);
+        opacity: 60%;
+        box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.712) ;
+    }
+}
+
+.album img:hover {
+    animation-name: album_animation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+.album img {
+    width: 100%;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.616) ;
+}
 
 @media screen and (max-height: 700px) {
     .events li{
