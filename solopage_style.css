@@ -1,0 +1,25 @@
+/* album solo page header style */
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    height: fit-content;
+    background-color: yellow;
+    justify-content: left;
+}
+
+.side {
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    background-color: green;
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh + 400px);
+    background-color: red;
+}
