@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
-    background-color: rgb(101, 100, 100);
+    background-color: rgb(61, 61, 61);
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+    background-attachment: fixed;
     scroll-behavior: smooth;
     
 }
@@ -57,8 +59,7 @@ body {
 .social{
     width: 60px;
     height: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 #social_instagram {
@@ -140,9 +141,6 @@ header h2{
     transition: 0.3s;
 }
 .biography{
-    background-color: rgb(61, 61, 61);
-    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
-    background-attachment: fixed;
     width: 99vw;
 }
 .biography-container{
@@ -150,24 +148,26 @@ header h2{
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 99vw;
 }
-.first_paragraph, .first_pic, .second_paragraph, .second_pic,
-.third_paragraph, .third_pic, .fourth_paragraph, .fourth_pic, 
-.fifth_paragraph, .fifth_pic, .sixth_paragraph, .sixth_pic, .seventh_paragraph, .seventh_pic{
+
+.paragraph{
+    min-height: 100%;
+    padding: auto;
+}
+.paragraph, .first_pic,  .second_pic,
+.third_pic, .fourth_pic, 
+ .fifth_pic, .sixth_pic, .seventh_pic{
     margin: 10px;
     padding: 15px;
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.658);
     margin: 0 auto;
-    width: 45%;
-}
-.first_paragraph, .second_paragraph, .third_paragraph, .fourth_paragraph,.fifth_paragraph,.sixth_paragraph,.seventh_paragraph{
-    min-height: 100%;
-    padding: auto;
-}
+    width: 45vw;
+ }
 .first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic{
-    display: flex;
+
     justify-content: center;
     background-size: cover;
     background-attachment: block;
@@ -206,6 +206,7 @@ hr{
 .seventh_pic{
     background-image: url("kepek/biography_seventh_pic.jpg");
 }
+
 @media screen and (max-height: 700px) {
     .events li{
         font-size: 20pt;
@@ -236,10 +237,20 @@ hr{
         font-size: 30pt;
         
     }
-    .first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic {
-    width: 90vw;
+    
+    
+    
+}
+@media screen and (max-width:900px) {
+    .biography-container{
+        flex-direction: column;
     }
-    .first_paragraph, .second_paragraph, .third_paragraph, .fourth_paragraph,.fifth_paragraph,.sixth_paragraph,.seventh_paragraph{
+    .paragraph,.first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic {
         width: 90vw;
-    }
+        }
+    .first_pic, .second_pic, .third_pic, .fourth_pic, .fifth_pic, .sixth_pic, .seventh_pic {
+            height: 600px;
+            margin:  20px auto;
+            
+        }
 }
