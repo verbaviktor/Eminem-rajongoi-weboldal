@@ -211,7 +211,18 @@ main {
 
 
 .album {
-    padding-top: 15px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.spreadsheet {
+    height: fit-content;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    border-radius: 15px;
 }
 
 @keyframes album_animation {
@@ -221,16 +232,16 @@ main {
     100% {
         transform: scale(1.0625 ,1.0625);
         opacity: 60%;
-        box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.712) ;
     }
 }
+
 
 .album img:hover {
     animation-name: album_animation;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
-    
 }
+
 
 .album img {
     width: 100%;
